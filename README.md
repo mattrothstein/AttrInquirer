@@ -1,8 +1,7 @@
 # AttrInquirer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/attr_inquirer`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a Ruby gem that enhances string functionality by providing an attribute inquirer pattern. It allows you to define attributes and query their states using a convenient syntax.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,7 +21,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'attr_inquirer'
+
+class MyClass
+  attr_inquirer :status
+
+  def initialize
+    @status = 'active'
+  end
+end
+
+my_instance = MyClass.new
+puts my_instance.status.active?   # Output: true
+puts my_instance.status.inactive? # Output: false
+```
 
 ## Development
 

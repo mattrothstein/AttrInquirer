@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matt Rothstein"]
   spec.email         = ["matthewrothstein@hotmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = 'Syntactic sugar for checking a strings value.'
+  spec.description   = 'Syntactic sugar for checking a strings value. Using active supports string inquirer'
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
